@@ -1,0 +1,42 @@
+ Web、APP、Kiosk 與文字版 Test 網址
+
+以下網址未指定語系時，會使用使用者上次選擇的語系；首次進入則使用繁體中文。第三方若要指定語系，可在網址路徑最後加上語系代碼，例如 /en。
+
+1.1 一般版
+
+Web：https://moeai-test.omniguider.com/home/nmns/web
+APP：https://moeai-test.omniguider.com/home/nmns/app
+Kiosk：https://moeai-test.omniguider.com/home/nmns/kiosk
+
+指定語系範例：
+
+Web 英文：https://moeai-test.omniguider.com/home/nmns/web/en
+APP 日文：https://moeai-test.omniguider.com/home/nmns/app/ja
+Kiosk 韓文：https://moeai-test.omniguider.com/home/nmns/kiosk/ko
+
+1.2 文字版
+
+Web：https://moeai-test.omniguider.com/home/chat/nmns/web
+APP：https://moeai-test.omniguider.com/home/chat/nmns/app
+Kiosk：https://moeai-test.omniguider.com/home/chat/nmns/kiosk
+
+指定語系範例：
+
+文字版 Web 英文：https://moeai-test.omniguider.com/home/chat/nmns/web/en
+文字版 APP 日文：https://moeai-test.omniguider.com/home/chat/nmns/app/ja
+文字版 Kiosk 韓文：https://moeai-test.omniguider.com/home/chat/nmns/kiosk/ko
+
+1.3 LINE 外部瀏覽器
+
+LINE 導流時，請加上 openExternalBrowser=1。語系可與此參數同時使用：
+
+繁體中文 Web：https://moeai-test.omniguider.com/home/nmns/web?openExternalBrowser=1
+英文 Web：https://moeai-test.omniguider.com/home/nmns/web/en?openExternalBrowser=1
+英文文字版 Web：https://moeai-test.omniguider.com/home/chat/nmns/web/en?openExternalBrowser=1
+
+語系代碼
+
+繁體中文：zh-TW
+英文：en
+日文：ja
+韓文：ko

@@ -175,18 +175,18 @@ import { RouterLink } from 'vue-router'
 
 .guide-frame-wrap {
   height: clamp(560px, calc(100vh - 260px), 820px);
+  display: flex;
+  justify-content: center;
   overflow: hidden;
-  border: 1px solid #e2dfd6;
-  background: #fff;
-  box-shadow: 0 8px 30px rgba(48, 45, 37, 0.07);
+  container-type: size;
 }
 
 .guide-frame {
-  width: 100%;
+  width: min(100%, 56.25cqh);
   height: 100%;
   display: block;
   border: 0;
-  background: #fff;
+  background: transparent;
 }
 
 .guide-footer {
@@ -242,7 +242,7 @@ import { RouterLink } from 'vue-router'
   }
 
   .guide-frame-wrap {
-    height: max(560px, calc(100dvh - 260px));
+    height: min(max(560px, calc(100dvh - 260px)), 160vw);
   }
 
   .guide-footer {
